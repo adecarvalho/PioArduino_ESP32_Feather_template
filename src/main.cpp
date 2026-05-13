@@ -22,7 +22,7 @@ void action()
 //************ */
 void setup()
 {
-  Serial.begin(1152000);
+  Serial.begin(115200);
   Wire.begin();
   //
   pinMode(LED_INTERNAL_PIN, OUTPUT);
